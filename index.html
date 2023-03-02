@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RT Blogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <div class="container">
+        <section class="session">
+          <div class="session-header">
+            <div class="session-image-logo">
+              <div class="session-img-logo">
+                <img
+                  src="./images/logo.png"
+                  alt="session-image-logo"
+                  class="session-image-logo"
+                />
+              </div>
+              <span class="session-name">RT-Blogs</span>
+            </div>
+          </div>
+          <h3 class="session-title">Sign in</h3>
+          <form class="session-form" action="" autocomplete="off">
+            <div class="session-group-input">
+              <label class="session-label" for="session-email"
+                >Username or email</label
+              >
+              <input type="text" class="session-input" id="session-email" />
+            </div>
+            <div class="session-group-input">
+              <label class="session-label" for="session-password">Password</label>
+              <input type="password" class="session-input" id="session-password" />
+            </div>
+            <div class="session-check">
+              <div class="session-remember-password">
+                <input
+                  id="session-checkbox"
+                  type="checkbox"
+                  class="session-checkbox"
+                />
+                <label for="session-checkbox" class="session-title-checkbox"
+                  >Remember password</label
+                >
+              </div>
+              <a href="/" class="session-link">Forgot your password?</a>
+            </div>
+            <div class="session-footer">
+              <input type="submit" value="Login" class="session-btn" />
+              <a href="/" class="session-link"
+                >Don’t have an account? Sign up here</a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

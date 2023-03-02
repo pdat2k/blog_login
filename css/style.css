@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "SVN-Gilroy";
+  src: url("../fonts/SVN-GilroyBold.eot");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SVN-Gilroy", sans-serif;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input,
+button,
+select {
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.session {
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 100px 0 30px 0;
+}
+.session-header {
+  margin-bottom: 75px;
+}
+.session-image-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.session-img-logo {
+  width: 61px;
+  height: 61px;
+}
+.session-name, .session-title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+.session-title {
+  margin-bottom: 16px;
+}
+.session-label {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.session-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.session-group-input {
+  margin-bottom: 24px;
+}
+.session-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.session-link {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #007bff;
+}
+.session-title-checkbox {
+  font-family: "Noto Sans JP";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  cursor: pointer;
+  user-select: none;
+}
+.session-checkbox {
+  border: 1.5px solid #292d32;
+}
+.session-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+.session-btn {
+  display: inline-block;
+  padding: 8px 119px;
+  width: 280px;
+  height: 40px;
+  background: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.session-remember-password {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

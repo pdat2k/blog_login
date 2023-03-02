@@ -1,0 +1,27 @@
+@mixin flexItem(
+  $flex: flex,
+  $alignItem: center,
+  $justifyContent: space-between
+) {
+  display: $flex;
+  align-items: $alignItem;
+  justify-content: $justifyContent;
+}
+
+@mixin flexAlign {
+  display: flex;
+  align-items: center;
+}
+
+@mixin widthHeight($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+@mixin middleElement {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
